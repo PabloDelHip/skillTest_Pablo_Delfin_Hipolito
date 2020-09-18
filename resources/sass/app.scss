@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+.color-navbar {
+    background-color: #353A40;
+}
+
+.card-header {
+    font-size: 1.4em !important;
+    background-color: transparent !important;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.datepicker {
+    font-size: 0.875em !important;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+.info-funciones {
+    color: #4c4b4b;
+    text-decoration: none !important;
+}
